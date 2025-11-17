@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: green;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav li {
+    margin: 0 15px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.main-nav a:hover {
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+
+#health-form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: #2E7D32;
+}
+
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
